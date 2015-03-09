@@ -1,0 +1,23 @@
+$mobile: 400px;
+$phablet: 550px;
+$tablet: 850px;
+$desktop: 1000px;
+$desktop-hd: 1400px;
+
+@mixin breakpoint($bp) {
+	@if $bp == larger-than-mobile {
+		@media (min-width: $mobile) { @content }
+	}
+	@if $bp == larger-than-phablet {
+		@media (min-width: $phablet) { @content }
+	}
+	@if $bp == larger-than-tablet {
+		@media (min-width: $tablet) { @content }
+	}
+	@if $bp == larger-than-desktop {
+		@media (min-width: $desktop) { @content }
+	}
+	@if $bp == larger-than-desktop-hd {
+		@media (min-width: $desktop-hd) { @content }
+	}
+}
