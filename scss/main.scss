@@ -3,9 +3,19 @@
 @import 'typography';
 @import 'breakpoints';
 
+@import 'compass/css3';
+
+/*=========================================================
+ * general styles
+ *=======================================================*/
+
 .band {
 	width: 100%;
 }
+
+/*=========================================================
+ * header
+ *=======================================================*/
 
 .header {
 	background: $dark-blue;
@@ -15,15 +25,16 @@ header {
 	width: 100%;
 	padding: 24px;
 
-	display: flex-box;
-	flex-wrap: wrap;
-
 	@include breakpoint(larger-than-desktop-hd) {
 		width: $desktop-hd;
 		margin-left: auto;
 		margin-right: auto;
 	}
 }
+
+/*---------------------------------------------------------
+ * header
+ *-------------------------------------------------------*/
 
 .site-title {
 	display: inline-block;
@@ -47,35 +58,56 @@ header {
 	text-transform: none;
 }
 
+/*---------------------------------------------------------
+ * navigation drawer (small screens)
+ *-------------------------------------------------------*/
+
 .menu-button {
 	display: inline-block;
-	width: 36px;
-	height: 36px;
-	display: none;
+	float: right;
+	width: 48px;
+	height: 48px;
+	background: none;
+	border: none;
+	padding: 0;
+
+	path {
+		fill: $nav-color;
+	}
+
+	&:focus {
+		outline: 0;
+	}
 }
 
-.menu-button path {
-	fill: $nav-color;
+body.open {
+	overflow: hidden;
 }
+
+$nav-drawer-width: 260px;
 
 nav {
-	width: 300px;
+	width: $nav-drawer-width;
 	height: 100%;
 	position: fixed;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	transform: translate(-300px, 0px);
-	transition: transform 0.3s ease;
+	@include transform(translate(-$nav-drawer-width, 0px));
+	@include transition(transform 0.3s ease);
+	z-index: 1;
+	overflow-y: auto;
 
 	background: #1D2E60;
-	color: white;
+	color: $nav-color;
 	padding: 24px;
+
+	@include box-shadow(2px 0px 10px 0px rgba(59, 60, 71, 0.3));
 }
 
 nav.open {
-	transform: translate(0px, 0px);
+	@include transform(translate(0px, 0px));
 }
 
 nav ul {
@@ -106,6 +138,63 @@ nav a {
 	}
 }
 
+/*---------------------------------------------------------
+ * navigation links (large screens)
+ *-------------------------------------------------------*/
+
+@include breakpoint(larger-than-tablet) {
+	.menu-button {
+		display: none;
+	}
+
+	nav {
+		width: auto;
+		height: 72px;
+		position: static;
+		transform: none;
+		transition: none;
+		float: right;
+
+		background: none;
+		padding: 0;
+
+		@include box-shadow(none);
+	}
+
+	nav li {
+		display: inline-block;
+		border: none;
+
+		margin: 0 18px;
+
+		&:first-child {
+			margin-left: 0;
+		}
+		&:last-child {
+			margin-right: 18px;
+		}
+	}
+
+	nav a {
+		display: inline-block;
+		line-height: 24px;
+	}
+
+	.nav-external {
+		padding: 6px 18px;
+		border: 2px solid $nav-color;
+		@include border-radius(24px + 2*6px);
+
+		&:hover {
+			border-color: $light-green;
+		}
+	}
+}
+
+/*---------------------------------------------------------
+ * page title
+ *-------------------------------------------------------*/
+
 .page-title {
 	width: 100%;
 	text-align: center;
@@ -126,6 +215,10 @@ nav a {
 	}
 }
 
+/*=========================================================
+ * main content
+ *=======================================================*/
+
 .main {
 	background: white;
 }
@@ -141,6 +234,10 @@ main {
 	}
 }
 
+/*=========================================================
+ * footers
+ *=======================================================*/
+
 footer {
 	width: 100%;
 
@@ -151,10 +248,45 @@ footer {
 	}
 }
 
+/*---------------------------------------------------------
+ * social links footer
+ *-------------------------------------------------------*/
+
 .social {
 	background: $light-blue;
-	height: 96px;
+	padding-top: 24px;
+	padding-bottom: 24px;
 }
+
+.social footer {
+	text-align: center;
+	font-size: 0;
+	line-height: 0;
+}
+
+.social footer a {
+	display: inline-block;
+	margin: 0 12px;
+
+	&:first-child {
+		margin-left: 0;
+	}
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.social footer svg {
+	height: 48px;
+
+	path {
+		fill: $dark-blue;
+	}
+}
+
+/*---------------------------------------------------------
+ * end footer
+ *-------------------------------------------------------*/
 
 .footer {
 	background: $dark-blue;
@@ -162,15 +294,27 @@ footer {
 
 .footer footer {
 	text-align: center;
-	padding-top: 72px;
-	padding-bottom: 72px;
+	padding-top: 48px;
+	padding-bottom: 48px;
+
+	@include breakpoint(larger-than-tablet) {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
 }
 
 .footer footer a {
 	@include font-structure;
+	display: block;
 	font-size: 18px;
-	line-height: 24px;
+	line-height: 48px;
 	color: $footer-color;
 	text-decoration: none;
 	text-transform: uppercase;
+}
+
+.footer footer .back-to-top {
+	@include breakpoint(larger-than-tablet) {
+		display: none;
+	}
 }

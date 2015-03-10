@@ -20,12 +20,28 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/main.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+  <meta name="theme-color" content="#0f3093">
 
 </head>
 <body>
@@ -35,24 +51,20 @@
   <div class="band header">
     <header>
 
-        <a href="#" class="site-title">
+        <a href="/" class="site-title">
           <svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" width="360" height="360" version="1.1"><path d="M0 0L0 150 257.2 0 0 0zM360 0L51.4 180 360 360 360 0zM0 210L0 360 257.2 360 0 210z"/></svg>
           <h1>Daniel P Koch</h1>
         </a>
 
-        <a class="menu-button">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
-          </svg>
-        </a>
+        <button class="menu-button"><?php include('images/hamburger.svg'); ?></button>
 
-        <nav class="open">
+        <nav class="">
           <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Resume</a></li>
             <li><a href="#">Projects</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="blog" class="nav-external">Blog</a></li>
           </ul>
         </nav>
 
@@ -75,16 +87,24 @@
   </div>
 
   <div class="band social">
-    <footer></footer>
+    <footer>
+         <a href="https://www.linkedin.com/pub/daniel-koch/3b/945/5b9" title="LinkedIn"><?php include('images/linkedin.svg'); ?></a><!--
+      --><a href="https://www.facebook.com/dkoch89" title="Facebook"><?php include('images/facebook.svg'); ?></a><!--
+      --><a href="https://github.com/dpkoch" title="Github"><?php include('images/github.svg'); ?></a>
+    </footer>
   </div>
 
   <div class="band footer">
     <footer>
+      <a href="#top" class="back-to-top">Back to top</a>
       <a href="mailto:daniel.p.koch@gmail.com">daniel.p.koch@gmail.com</a>
     </footer>
   </div>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <script src="scripts/main.js"></script>
+
 </body>
 </html>
