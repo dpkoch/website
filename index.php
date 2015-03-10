@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>Welcome | Daniel P Koch</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -46,7 +46,7 @@
           </svg>
         </a>
 
-        <nav>
+        <nav class="open">
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>

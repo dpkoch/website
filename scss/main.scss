@@ -61,16 +61,49 @@ header {
 nav {
 	width: 300px;
 	height: 100%;
-	position: absolute;
-	transform: translate(-324px, 0px);
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transform: translate(-300px, 0px);
 	transition: transform 0.3s ease;
 
-	background: #3B3C47;
+	background: #1D2E60;
 	color: white;
+	padding: 24px;
 }
 
 nav.open {
-	transform: translate(-24px, 0px);
+	transform: translate(0px, 0px);
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-type: none;
+
+	border-bottom: solid 1px #2C4693;
+	&:last-child {
+		border-bottom: none;
+	}
+}
+
+nav a {
+	@include font-structure;
+	color: $nav-color;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	font-size: 18px;
+	line-height: 72px;
+
+	&:hover {
+		color: $light-green;
+	}
 }
 
 .page-title {
