@@ -90,7 +90,7 @@
     <footer>
          <a href="https://www.linkedin.com/pub/daniel-koch/3b/945/5b9" title="LinkedIn"><?php include('images/linkedin.svg'); ?></a><!--
       --><a href="https://www.facebook.com/dkoch89" title="Facebook"><?php include('images/facebook.svg'); ?></a><!--
-      --><a href="https://github.com/dpkoch" title="Github"><?php include('images/github.svg'); ?></a>
+      --><a href="https://github.com/dpkoch" title="GitHub"><?php include('images/github.svg'); ?></a>
     </footer>
   </div>
 

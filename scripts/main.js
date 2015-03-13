@@ -25,6 +25,7 @@
   var body = document.body;
   var menuBtn = querySelector('.menu-button');
   var main = querySelector('main');
+  var header = querySelector('.page-title');
 
   function closeMenu() {
     body.classList.remove('open');
@@ -38,6 +39,7 @@
   }
 
   main.addEventListener('click', closeMenu);
+  header.addEventListener('click', closeMenu);
   menuBtn.addEventListener('click', toggleMenu);
   navdrawerContainer.addEventListener('click', function (event) {
     if (event.target.nodeName === 'A' || event.target.nodeName === 'LI') {

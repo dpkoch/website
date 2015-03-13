@@ -102,12 +102,11 @@ nav {
 	background: #1D2E60;
 	color: $nav-color;
 	padding: 24px;
-
-	@include box-shadow(2px 0px 10px 0px rgba(59, 60, 71, 0.3));
 }
 
 nav.open {
 	@include transform(translate(0px, 0px));
+	@include box-shadow(2px 0px 10px 0px rgba(59, 60, 71, 0.3));
 }
 
 nav ul {
