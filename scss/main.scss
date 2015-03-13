@@ -9,8 +9,17 @@
  * general styles
  *=======================================================*/
 
+body {
+	background: $dark-blue;
+}
+
 .band {
 	width: 100%;
+}
+
+figure {
+	margin: 24px 36px;
+	text-align: center;
 }
 
 /*=========================================================
@@ -331,4 +340,18 @@ footer {
 	@include breakpoint(larger-than-tablet) {
 		display: none;
 	}
+}
+
+/*=========================================================
+ * other
+ *=======================================================*/
+
+.welcome-picture {
+	margin: 24px 15px 0 15px;
+}
+
+.welcome-picture img {
+	width: 350px;
+	max-width: 100%;
+	@include border-radius(100%);
 }
