@@ -132,6 +132,8 @@ nav a {
 	font-size: 18px;
 	line-height: 72px;
 
+	@include transition(color ease 0.1s);
+
 	&:hover, &:focus {
 		color: $light-green;
 	}
@@ -283,6 +285,15 @@ footer {
 	}
 }
 
+.social footer:hover path {
+	opacity: 0.6;
+	@include transition(opacity ease 0.15s);
+}
+
+.social footer:hover a:hover path {
+	opacity: 1.0;
+}
+
 /*---------------------------------------------------------
  * end footer
  *-------------------------------------------------------*/
@@ -310,6 +321,10 @@ footer {
 	color: $footer-color;
 	text-decoration: none;
 	text-transform: uppercase;
+
+	&:hover, &:focus {
+		color: $light-green;
+	}
 }
 
 .footer footer .back-to-top {
