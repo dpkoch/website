@@ -141,7 +141,7 @@ nav a {
 	font-size: 18px;
 	line-height: 72px;
 
-	@include transition(color ease 0.1s);
+	@include transition(color 0.1s ease);
 
 	&:hover, &:focus {
 		color: $light-green;
@@ -194,6 +194,7 @@ nav a {
 		padding: 6px 18px;
 		border: 2px solid $nav-color;
 		@include border-radius(24px + 2*6px);
+		@include transition(color 0.1s ease, border-color 0.1s ease);
 
 		&:hover {
 			border-color: $light-green;
@@ -297,7 +298,7 @@ footer {
 
 .social footer:hover path {
 	opacity: 0.6;
-	@include transition(opacity ease 0.15s);
+	@include transition(opacity 0.15s ease);
 }
 
 .social footer:hover a:hover path {
