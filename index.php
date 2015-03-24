@@ -1,5 +1,6 @@
 <?php
   $page_title='Welcome';
+  $page_heading='Welcome';
   include($_SERVER['DOCUMENT_ROOT'] . '/include/header.php');
 ?>
 

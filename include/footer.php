@@ -7,7 +7,7 @@
   <div class="band social">
     <footer>
          <a href="https://www.linkedin.com/pub/daniel-koch/3b/945/5b9" title="LinkedIn"><?php include($_SERVER['DOCUMENT_ROOT'] . '/images/linkedin.svg'); ?></a><!--
-      --><a href="https://www.facebook.com/dkoch89" title="Facebook"><?php include($_SERVER['DOCUMENT_ROOT'] . '/images/facebook.svg'); ?></a><!--
+      --><a href="https://www.facebook.com/danielpkoch" title="Facebook"><?php include($_SERVER['DOCUMENT_ROOT'] . '/images/facebook.svg'); ?></a><!--
       --><a href="https://github.com/dpkoch" title="GitHub"><?php include($_SERVER['DOCUMENT_ROOT'] . '/images/github.svg'); ?></a>
     </footer>
   </div>

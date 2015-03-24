@@ -5,3 +5,4 @@ deploy.sh
 config.rb
 scss
 .sass-cache
+devel

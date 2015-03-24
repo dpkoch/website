@@ -22,6 +22,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="/styles/normalize.css">
   <link rel="stylesheet" href="/styles/main.css">
+  <?php if (!empty($header_css)) { echo '<link rel="stylesheet" href="' . $header_css . '">'; } ?>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -69,7 +70,7 @@
         </nav>
 
       <div class="page-title">
-        <h2>Welcome</h2>
+        <h2><?php if (!empty($page_heading)) {echo $page_heading; } ?></h2>
       </div>
 
     </header>
