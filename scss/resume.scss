@@ -51,6 +51,14 @@
 	font-style: italic;
 }
 
+.resume-list {
+	@include columns(280px 2);
+
+	ul, ol {
+		margin-top: 0;
+	}
+}
+
 @include breakpoint(larger-than-phablet) {
 
 	.resume-position-header {

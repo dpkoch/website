@@ -145,18 +145,45 @@
 
 <section>
 	<h3>Skills</h3>
-	<ul>
-		<li>Coding</li>
-		<li>Life</li>
-	</ul>
+	<div class="resume-list">
+		<ul>
+			<li>ROS</li>
+			<li>Pixhawk/PX4</li>
+			<li>OpenCV</li>
+			<li>Matlab</li>
+			<li>Simulink</li>
+			<li>PCB Design (Cadsoft EAGLE)</li>
+			<li>PIC microcontroller</li>
+			<li>Linux</li>
+			<li>C/C++</li>
+			<li>Java</li>
+			<li>Python</li>
+			<li>C#</li>
+			<li>LMS Virtual.Lab Motion</li>
+			<li>CATIA</li>
+			<li>Solidworks</li>
+			<li>NX</li>
+			<li>Inventor</li>
+			<li>LaTeX</li>
+			<li>HTML/CSS/PHP</li>
+		</ul>
+	</div>
 </section>
 
 <section>
-	<h3>Awards</h3>
-	<ul>
-		<li>Coding</li>
-		<li>Life</li>
-	</ul>
+	<h3>Awards and Certifications</h3>
+	<div class="resume-list">
+		<ul>
+			<li>Graduate Research Fellowship</li>
+			<li>Tau Beta Pi Stabile Scholarship</li>
+			<li>Heritage Academic Scholarship</li>
+			<li>National Merit Scholarship</li>
+			<li>Kruger Scholarship</li>
+			<li>Eagle Scout with Silver Palm</li>
+			<li>Piano Syllabus Post Level X with Honors</li>
+			<li>PADI Open Water Diver</li>
+		</ul>
+	</div>
 </section>
 
 <?php include ($_SERVER['DOCUMENT_ROOT'] . '/include/footer.php');
