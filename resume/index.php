@@ -164,6 +164,7 @@
 			<li>Solidworks</li>
 			<li>NX</li>
 			<li>Inventor</li>
+			<li>Excel</li>
 			<li>LaTeX</li>
 			<li>HTML/CSS/PHP</li>
 		</ul>
