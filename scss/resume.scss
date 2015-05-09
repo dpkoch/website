@@ -5,7 +5,7 @@
 
 .resume-position {
 
-	padding: 24px 0;
+	padding: 48px 0;
 
 	border-bottom: 1px solid #ddd;
 	&:first-of-type {
@@ -34,7 +34,7 @@
 
 .resume-logo {
 	@include align-self(center);
-	margin: 0;
+	margin: 0 0 12px 0;
 
 	img {
 		width: 120px;
@@ -71,5 +71,9 @@
 		h4 {
 			margin-bottom: 0;
 		}
+	}
+
+	.resume-logo {
+		margin-bottom: 0;
 	}
 }
