@@ -4,10 +4,6 @@
   include($_SERVER['DOCUMENT_ROOT'] . '/include/header.php');
 ?>
 
-<figure class="welcome-picture">
-  <img src="/images/headshot.jpg">
-</figure>
-
 <h3>This is a heading</h3>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a condimentum nisl. Donec pulvinar nisl libero, eget feugiat ante blandit ac. Donec volutpat vitae elit in suscipit. Integer ac ullamcorper libero. Sed imperdiet ante eget felis feugiat, ut feugiat diam hendrerit. Fusce dapibus justo ut metus facilisis tristique. Donec varius congue tortor. Mauris a sapien fermentum, tincidunt velit in, blandit lorem. Ut molestie dolor et ante pellentesque dignissim. Ut et neque quis urna maximus egestas. Donec auctor sem a magna facilisis hendrerit. Morbi placerat erat ut felis dictum, sit amet suscipit tellus ultrices.</p>
 
