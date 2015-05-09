@@ -10,7 +10,7 @@
 
 	<article class="resume-position">
 		<div class="resume-position-header">
-			<figure class="resume-logo"><a href="http://www.byu.edu/"><img src="byu_logo.svg"></a></figure>
+			<figure class="resume-logo"><a href="http://www.byu.edu/"><img src="byu_logo.svg" alt="Brigham Young University"></a></figure>
 			<!--img src="byu_logo.svg"-->
 			<div class="resume-position-details">
 				<h4>M.S. Mechanical Engineering</h4>
@@ -30,7 +30,7 @@
 
 	<article class="resume-position">
 		<div class="resume-position-header">
-			<figure class="resume-logo"><a href="http://www.byu.edu/"><img src="byu_logo.svg"></a></figure>
+			<figure class="resume-logo"><a href="http://www.byu.edu/"><img src="byu_logo.svg" alt="Brigham Young University"></a></figure>
 			<div class="resume-position-details">
 				<h4>B.S. Mechanical Engineering</h4>
 				<span class="resume-institution">Brigham Young University</span>
@@ -54,7 +54,7 @@
 
 	<article class="resume-position">
 		<div class="resume-position-header">
-			<figure class="resume-logo"><a href="http://magicc.byu.edu/"><img src="magicc_logo.svg"></a></figure>
+			<figure class="resume-logo"><a href="http://magicc.byu.edu/"><img src="magicc_logo.svg" alt="BYU MAGICC Lab"></a></figure>
 			<div class="resume-position-details">
 				<h4>Research Assistant</h4>
 				<span class="resume-institution">BYU MAGICC Lab</span>
@@ -72,7 +72,7 @@
 
 	<article class="resume-position">
 		<div class="resume-position-header">
-			<figure class="resume-logo"><a href="http://www.eglin.af.mil/units/afrlmunitionsdirectorate/"><img src="afrl_logo.svg"></a></figure>
+			<figure class="resume-logo"><a href="http://www.eglin.af.mil/units/afrlmunitionsdirectorate/"><img src="afrl_logo.svg" alt="Air Force Research Laboratory"></a></figure>
 			<div class="resume-position-details">
 				<h4>Researcher</h4>
 				<span class="resume-institution">Air Force Research Laboratory</span>
@@ -90,7 +90,7 @@
 
 	<article class="resume-position">
 		<div class="resume-position-header">
-			<figure class="resume-logo"><a href="http://www.daimler-trucksnorthamerica.com/"><img src="dtna_logo.svg"></a></figure>
+			<figure class="resume-logo"><a href="http://www.daimler-trucksnorthamerica.com/"><img src="dtna_logo.svg" alt="Daimler Trucks North America"></a></figure>
 			<div class="resume-position-details">
 				<h4>Intern</h4>
 				<span class="resume-institution">Daimler Trucks North America</span>
@@ -108,7 +108,7 @@
 
 	<article class="resume-position">
 		<div class="resume-position-header">
-			<figure class="resume-logo"><a href="http://materials.byu.edu/"><img src="byu_logo.svg"></a></figure>
+			<figure class="resume-logo"><a href="http://materials.byu.edu/"><img src="byu_logo.svg" alt="BYU Microstructure Research Lab"></a></figure>
 			<div class="resume-position-details">
 				<h4>Researcher</h4>
 				<span class="resume-institution">BYU Microstructure Research Lab</span>
@@ -126,7 +126,7 @@
 
 	<article class="resume-position">
 		<div class="resume-position-header">
-			<figure class="resume-logo"><a href="http://www.lanl.gov/"><img src="lanl_logo.svg"></a></figure>
+			<figure class="resume-logo"><a href="http://www.lanl.gov/"><img src="lanl_logo.svg" alt="Los Alamos National Laboratory"></a></figure>
 			<div class="resume-position-details">
 				<h4>Researcher</h4>
 				<span class="resume-institution">Los Alamos National Laboratory</span>
