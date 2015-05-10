@@ -25,6 +25,19 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 
+h4, h5, h6 {
+  color: $red;
+}
+
+h5, h6 {
+  text-transform: none;
+}
+
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.00em; }
+h5 { font-size: 0.96em; }
+h6 { font-size: 0.83em; }
+
 p {
   margin-top: 0;
   margin-bottom: 24px;

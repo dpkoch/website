@@ -187,4 +187,4 @@
 	</div>
 </section>
 
-<?php include ($_SERVER['DOCUMENT_ROOT'] . '/include/footer.php');
+<?php include ($_SERVER['DOCUMENT_ROOT'] . '/include/footer.php'); ?>
