@@ -11,4 +11,4 @@
 <p>Aenean vel mi sed lacus sollicitudin maximus. Donec id lacus nibh. Sed vel leo egestas, mollis nisl sit amet, lacinia diam. Nulla facilisi. Phasellus eget ligula vulputate, bibendum dolor non, sodales erat. Mauris id purus nisl. Vivamus gravida augue id mollis gravida.</p>
 <p>Nam vel sem mauris. Praesent sodales iaculis libero in rhoncus. Sed quis dignissim risus. Praesent eu nulla cursus, lacinia erat nec, vestibulum ex. Etiam rutrum justo ultrices pharetra malesuada. Aenean urna augue, egestas eget lorem id, vehicula pharetra elit. Ut auctor convallis justo vitae euismod. In a tincidunt metus. Donec tincidunt lacus et nisl sodales, vel aliquam felis vulputate. Ut est nulla, elementum a condimentum id, auctor eu leo.</p>
 
-<?php include ($_SERVER['DOCUMENT_ROOT'] . '/include/footer.php');
+<?php include ($_SERVER['DOCUMENT_ROOT'] . '/include/footer.php'); ?>
