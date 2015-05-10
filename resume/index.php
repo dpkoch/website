@@ -74,7 +74,7 @@
 		<div class="resume-position-header">
 			<figure class="resume-logo"><a href="http://www.eglin.af.mil/units/afrlmunitionsdirectorate/"><img src="afrl_logo.svg" alt="Air Force Research Laboratory"></a></figure>
 			<div class="resume-position-details">
-				<h4>Researcher</h4>
+				<h4>Summer Researcher</h4>
 				<span class="resume-institution">Air Force Research Laboratory</span>
 				<span class="resume-location">Fort Walton Beach, Florida</span>
 				<span class="resume-dates">May 2014 &ndash; August 2014</span>
@@ -110,7 +110,7 @@
 		<div class="resume-position-header">
 			<figure class="resume-logo"><a href="http://materials.byu.edu/"><img src="byu_logo.svg" alt="BYU Microstructure Research Lab"></a></figure>
 			<div class="resume-position-details">
-				<h4>Researcher</h4>
+				<h4>Research Assistant</h4>
 				<span class="resume-institution">BYU Microstructure Research Lab</span>
 				<span class="resume-location">Provo, Utah</span>
 				<span class="resume-dates">October 2010 &ndash; April 2012</span>
@@ -128,7 +128,7 @@
 		<div class="resume-position-header">
 			<figure class="resume-logo"><a href="http://www.lanl.gov/"><img src="lanl_logo.svg" alt="Los Alamos National Laboratory"></a></figure>
 			<div class="resume-position-details">
-				<h4>Researcher</h4>
+				<h4>Undergraduate Intern</h4>
 				<span class="resume-institution">Los Alamos National Laboratory</span>
 				<span class="resume-location">Los Alamos, New Mexico</span>
 				<span class="resume-dates">May 2011 &ndash; August 2011</span>
