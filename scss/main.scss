@@ -18,8 +18,13 @@ body {
 }
 
 figure {
-	margin: 24px 36px;
+	margin: 24px auto;
+	max-width: 100%;
 	text-align: center;
+
+	@include breakpoint(larger-than-phablet) {
+		max-width: 80%;
+	}
 }
 
 /*=========================================================
