@@ -8,6 +8,8 @@
 
 <p>I am a full-time student working on a master's degree in mechanical engineering at Brigham Young University. My research is on GPS-denied navigation and control for unmmaned air vehicles. I think that the area where mechanical engineering, electrical engineering, and computer science all come together is an exciting place to be, and that's where I try to spend my time.</p>
 
+<figure><img src="test_flight.jpg" alt="Test flight"></figure>
+
 <p>My areas of expertise include estimation and controls, mechatronics, and programming. I enjoy working on both the theoretical and practical aspects of these topics. Seeing how the math and theory translates into actual results is fascinating to me, and I think that the challenge of understanding, extending, and applying it is fun. Implementing those ideas on a real platform is also satisfying for me, which I do a fair amount of in <a href="http://www.ros.org/">ROS</a> and on the <a href="http://pixhawk.org/">Pixhawk</a> autopilot for my research.</p>
 
 <p>But if you really wanted to read about that, you'd probably just be looking at my <a href="/resume">resume</a>. So let's move on to something more interesting...</p>
