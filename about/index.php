@@ -20,7 +20,7 @@
 
 <p>When I want to go <em>do</em> something, I almost always head outdoors. Being out in nature&mdash;feeling the sun, smelling the air, seeing the sights&mdash;invigorates me. Hiking and backpacking are my favorite things to do, but I also enjoy biking and anything else that gets me outside.</p>
 
-<p>My favorite sport is racquetball. I also enjoy volleyball, frisbee, and pretty much any sport except basketball. I've taken ballroom dance classes for several years now and have a ton of fun with it. Not too long ago I accomplished my lifelong goal of getting scuba certified, and have recently taken an interest in Brazilian jiu-jitsu.</p>
+<p>My favorite sport is racquetball. I also enjoy volleyball, frisbee, and pretty much any sport except basketball. I've taken ballroom dance classes for several years now and have a ton of fun with it. Not too long ago I accomplished my lifelong goal of getting scuba certified, and have recently sarted training in Brazilian jiu-jitsu.</p>
 
 <h4>Tinkering</h4>
 
@@ -28,8 +28,8 @@
 
 <h4>Relaxing</h4>
 
-<p>When I want to wind down at the end of the day, playing the piano is one of my goto activities. I've played since I was about six years old. My focus is classical music, but I enjoy some lighter stuff now and then too. In addition to the piano I also play a bit of flute, ukulele, and recorder.</p>
+<p>When I want to wind down at the end of the day, playing the piano is one of my go-to activities. I've played since I was about six years old. My focus is classical music, but I enjoy some lighter stuff now and then too. In addition to the piano I also play a bit of flute, ukulele, and recorder.</p>
 
-<p>My favorite form of more mainstream entertainment is reading. I'm a huge <cite>Lord of the Rings</cite> fan&mdash;yes, I've read the <cite>Silmarillion</cite>. And loved it. Other favorite books include <cite>Ender's Game</cite> and anything written by Brandon Sanderson. My favorite band is Dire Straits, and my favorite movie is <cite>Hook</cite> (which I also consider to be one of John Williams' best soundtracks; go check it out if you don't believe me).</p>
+<p>My favorite form of more mainstream entertainment is reading. I'm a huge <cite>Lord of the Rings</cite> fan&mdash;yes, I've read the <cite>Silmarillion</cite>. And loved it. Other favorite books include <cite>Ender's Game</cite> and anything written by Brandon Sanderson. My favorite band is Dire Straits, and my favorite movie is <cite>Hook</cite> (which I also consider to be one of John Williams' best soundtracks).</p>
 
 <?php include ($_SERVER['DOCUMENT_ROOT'] . '/include/footer.php'); ?>
