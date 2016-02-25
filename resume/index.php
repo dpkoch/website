@@ -40,7 +40,7 @@
 		</div>
 		<div class="resume-position-points">
 			<ul>
-				<li>Summa Cum Laude (4.00 GPA)</li>
+				<li>Summa cum laude (4.00 GPA)</li>
 				<li>Minor in Computer Science</li>
 				<li>Elective Courses: Flight Dynamics and Control, Mechatronics, Design of Control Systems, Optimization Techniques, Neuromechanics of Movement</li>
 			</ul>
@@ -150,9 +150,9 @@
 			<li>ROS</li>
 			<li>Pixhawk/PX4</li>
 			<li>OpenCV</li>
-			<li>Matlab</li>
+			<li>MATLAB</li>
 			<li>Simulink</li>
-			<li>PCB Design (Cadsoft EAGLE)</li>
+			<li>PCB Design (CadSoft EAGLE)</li>
 			<li>PIC microcontroller</li>
 			<li>Linux</li>
 			<li>C/C++</li>
@@ -161,7 +161,7 @@
 			<li>C#</li>
 			<li>LMS Virtual.Lab Motion</li>
 			<li>CATIA</li>
-			<li>Solidworks</li>
+			<li>SolidWorks</li>
 			<li>NX</li>
 			<li>Inventor</li>
 			<li>Excel</li>
