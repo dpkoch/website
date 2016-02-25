@@ -1,2 +1,7 @@
+*~
+*.asv
+*.bak
+*.swp
+
 .sass-cache
 styles/
