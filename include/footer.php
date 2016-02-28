@@ -23,6 +23,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
   <script src="/scripts/main.js"></script>
+  <?php if (!empty($footer_js)) { echo $footer_js . PHP_EOL; } ?>
 
 </body>
 </html>

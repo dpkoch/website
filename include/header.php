@@ -24,6 +24,10 @@
   <link rel="stylesheet" href="/styles/main.css">
   <?php if (!empty($header_css)) { echo '<link rel="stylesheet" href="' . $header_css . '">'; } ?>
 
+  <!-- JavaScript
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <?php if (!empty($header_js)) { echo $header_js . PHP_EOL; } ?>
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
