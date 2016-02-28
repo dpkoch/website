@@ -1,0 +1,37 @@
+.pub-year h4 {
+  margin: 12px 0;
+}
+
+.pub-articles {
+  padding: 0;
+}
+
+.pub-article {
+  list-style-type: none;
+  margin-bottom: 12px;
+}
+
+.pub-title {
+  font-weight: bold;
+}
+
+.pub-authors {
+  padding: 0;
+}
+
+.pub-author {
+  list-style-type: none;
+  display: inline;
+
+  &::after {
+    content: ", ";
+  }
+
+  &:last-child::after {
+    content: "";
+  }
+}
+
+.pub-source {
+  font-style: italic;
+}
