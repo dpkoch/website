@@ -1,3 +1,5 @@
+@import 'compass/css3/animation';
+
 .pub-year h4 {
   margin: 12px 0;
 }
@@ -34,4 +36,14 @@
 
 .pub-source {
   font-style: italic;
+}
+
+@include keyframes(loading) {
+  0% { opacity: 1; }
+  50% { opacity: 0.25; }
+  100% { opacity: 1; }
+}
+
+.pub-loading {
+  @include animation(loading 2s ease-in-out 0.5s infinite);
 }
