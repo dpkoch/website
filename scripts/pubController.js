@@ -19,6 +19,8 @@ app.filter('source', function() {
 
 app.controller('pubCtrl', function($scope, $http) {
   $http.get("/apps/mendeley/publications.php").then(function(response) {
+    $scope.loaded = true;
+
     $scope.articles = response.data.articles;
 
     // get array of unique years
@@ -29,5 +31,7 @@ app.controller('pubCtrl', function($scope, $http) {
         $scope.years.push($scope.articles[i].year);
       }
     }
+  }, function(response) {
+    $scope.error = true;
   })
 });

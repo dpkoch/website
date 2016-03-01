@@ -8,8 +8,11 @@
 
 <h3>Publications</h3>
 
-<div data-ng-app="pubApp" data-ng-controller="pubCtrl">
-  <div class="pub-year" data-ng-repeat="year in years | orderBy:'+':true">
+<div data-ng-app="pubApp" data-ng-controller="pubCtrl" data-ng-init="loaded=false, error=false">
+
+  <p class="pub-loading" data-ng-hide="loaded || error">Loading...</p>
+
+  <div class="pub-year" data-ng-show="loaded" data-ng-repeat="year in years | orderBy:'+':true">
     <h4>{{ year }}</h4>
     <ul class="pub-articles">
       <li class="pub-article" data-ng-repeat="article in articles | filter:{ year : year }">
@@ -21,6 +24,9 @@
       </li>
     </ul>
   </div>
+
+  <p class="pub-error" data-ng-show="error">Sorry, there was an error loading the data :(</p>
+
 </div>
 
 <p>For more details, see my <a href="https://scholar.google.com/citations?user=cohw-PUAAAAJ" target="_blank">Google Scholar</a> profile.</p>
