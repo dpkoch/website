@@ -8,7 +8,7 @@
 
 <h3>Publications</h3>
 
-<div data-ng-app="pubApp" data-ng-controller="pubCtrl" data-ng-init="loaded=false, error=false">
+<div data-ng-app="pubApp" data-ng-controller="pubCtrl">
 
   <p class="pub-loading" data-ng-hide="loaded || error">Loading...</p>
 

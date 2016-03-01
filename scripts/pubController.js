@@ -18,6 +18,10 @@ app.filter('source', function() {
 });
 
 app.controller('pubCtrl', function($scope, $http) {
+
+  $scope.loaded = false;
+  $scope.error = false;
+
   $http.get("/apps/mendeley/publications.php").then(function(response) {
     $scope.loaded = true;
 
