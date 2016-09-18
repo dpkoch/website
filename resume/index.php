@@ -118,7 +118,7 @@
     <div class="resume-position-points">
       <ul>
         <li>Researched continuum mechanical models of dislocation stress fields near a free surface</li>
-        <li>Coauthor on paper accepted into <cite>Ultramicroscopy</cite> journal</li>
+        <li>Coauthor on paper published in <cite>Journal of Microscopy</cite></li>
       </ul>
     </div>
   </article>
