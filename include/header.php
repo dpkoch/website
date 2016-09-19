@@ -73,9 +73,7 @@
           </ul>
         </nav>
 
-      <div class="page-title">
-        <h2><?php if (!empty($page_heading)) {echo $page_heading; } ?></h2>
-      </div>
+        <?php if (!empty($page_heading)) { echo '<div class="page-title"> <h2>' . $page_heading . '</h2> </div>'; } ?>
 
     </header>
   </div>
