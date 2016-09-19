@@ -69,13 +69,11 @@
             <li><a href="/about/">About</a></li>
             <li><a href="/resume/">Resume</a></li>
             <li><a href="/portfolio/">Portfolio</a></li>
-            <li><a href="/blog" class="nav-external">Blog</a></li>
+            <li><a href="/blog/" class="nav-external">Blog</a></li>
           </ul>
         </nav>
 
-      <div class="page-title">
-        <h2><?php if (!empty($page_heading)) {echo $page_heading; } ?></h2>
-      </div>
+        <?php if (!empty($page_heading)) { echo '<div class="page-title"> <h2>' . $page_heading . '</h2> </div>'; } ?>
 
     </header>
   </div>
