@@ -56,24 +56,24 @@
   <div class="band header">
     <header>
 
-        <a href="/" class="site-title">
-          <svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" width="360" height="360" version="1.1"><path d="M0 0L0 150 257.2 0 0 0zM360 0L51.4 180 360 360 360 0zM0 210L0 360 257.2 360 0 210z"/></svg>
-          <h1>Daniel P Koch</h1>
-        </a>
+      <a href="/" class="site-title">
+        <svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" width="360" height="360" version="1.1"><path d="M0 0L0 150 257.2 0 0 0zM360 0L51.4 180 360 360 360 0zM0 210L0 360 257.2 360 0 210z"/></svg>
+        <h1>Daniel P Koch</h1>
+      </a>
 
-        <button class="menu-button"><?php include($_SERVER['DOCUMENT_ROOT'] . '/images/hamburger.svg'); ?></button>
+      <button class="menu-button"><?php include($_SERVER['DOCUMENT_ROOT'] . '/images/hamburger.svg'); ?></button>
 
-        <nav class="">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/resume/">Resume</a></li>
-            <li><a href="/portfolio/">Portfolio</a></li>
-            <li><a href="/blog/" class="nav-external">Blog</a></li>
-          </ul>
-        </nav>
+      <nav class="">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/resume/">Resume</a></li>
+          <li><a href="/portfolio/">Portfolio</a></li>
+          <li><a href="/blog/" class="nav-external">Blog</a></li>
+        </ul>
+      </nav>
 
-        <?php if (!empty($page_heading)) { echo '<div class="page-title"> <h2>' . $page_heading . '</h2> </div>'; } ?>
+      <?php if (!empty($page_heading)) { echo '<div class="page-title"> <h2>' . $page_heading . '</h2> </div>'; } ?>
 
     </header>
   </div>
