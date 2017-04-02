@@ -363,8 +363,13 @@ footer {
  * other
  *=======================================================*/
 
+.headshot {
+	@include background-image(linear-gradient(180deg, $dark-blue 50%, #fff 50%));
+	padding: 0 24px;
+}
+
 .welcome-picture {
-	margin: 24px auto;
+	margin: 0 auto;
 }
 
 .welcome-picture img {

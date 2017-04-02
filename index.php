@@ -1,10 +1,12 @@
 <?php
+  $header_extra = '<div class="band headshot">
+    <figure class="welcome-picture">
+      <img src="images/headshot.jpg" alt="headshot">
+    </figure>
+  </div>';
   include($_SERVER['DOCUMENT_ROOT'] . '/include/header.php');
 ?>
 
-<figure class="welcome-picture">
-  <img src="images/headshot.jpg" alt="headshot">
-</figure>
 
 <h3>Welcome!</h3>
 <p>I'm an engineering PhD student working in the field of guidance, navigation, and control for unamnned air vehicles (UAVs). My background is in mechanical engineering with a decent helping of controls engineering and computer science. Aside from robotics I'm involved in a number of diverse hobbies and interests.</p>
