@@ -78,6 +78,8 @@
     </header>
   </div>
 
+  <?php if (!empty($header_extra)) { echo $header_extra . PHP_EOL; } ?>
+
   <div class="band main">
     <main>
 
