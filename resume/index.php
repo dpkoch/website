@@ -64,7 +64,25 @@
     <div class="resume-position-points">
       <ul>
         <li>Research guidance and control of small UAVs in environments with degraded GPS</li>
-        <li>Coauthored and presented conference paper on robust vision-based motion estimation</li>
+        <li>Co-developed the <a href="http://rosflight.org/">ROSflight</a> autopilot firmware and ROS stack</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="resume-position">
+    <div class="resume-position-header">
+      <figure class="resume-logo"><a href="https://kittyhawk.aero/"><img src="kittyhawk_logo.svg" alt="Kitty Hawk"></a></figure>
+      <div class="resume-position-details">
+        <h4>GNC Engineer</h4>
+        <span class="resume-institution">Kitty Hawk Corporation</span>
+        <span class="resume-location">Mountain View, California</span>
+        <span class="resume-dates">January 2017 &ndash; April 2017</span>
+      </div>
+    </div>
+    <div class="resume-position-points">
+      <ul>
+        <li>Functioned as lead estimation engineer for a manned multirotor aircraft</li>
+        <li>Contributed to system-level software design and integration decisions</li>
       </ul>
     </div>
   </article>
@@ -100,7 +118,7 @@
     <div class="resume-position-points">
       <ul>
         <li>Developed methodology for dynamic and kinematic modeling and analysis of heavy truck hood mounting system</li>
-        <li>Implemented new software and helped establish expanded engineering analysis capabilities</li>
+        <li>Helped integrate new software and establish expanded engineering analysis capabilities</li>
       </ul>
     </div>
   </article>
@@ -147,22 +165,15 @@
   <div class="resume-list">
     <ul>
       <li>ROS</li>
+      <li>C/C++, Python, Java</li>
+      <li>MATLAB, Simulink</li>
+      <li>Linux</li>
       <li>Pixhawk/PX4</li>
       <li>OpenCV</li>
-      <li>MATLAB</li>
-      <li>Simulink</li>
       <li>PCB Design (CadSoft EAGLE)</li>
       <li>PIC microcontroller</li>
-      <li>Linux</li>
-      <li>C/C++</li>
-      <li>Java</li>
-      <li>Python</li>
-      <li>C#</li>
       <li>LMS Virtual.Lab Motion</li>
-      <li>CATIA</li>
-      <li>SolidWorks</li>
-      <li>NX</li>
-      <li>Inventor</li>
+      <li>CATIA, SolidWorks, NX, Inventor</li>
       <li>Excel</li>
       <li>LaTeX</li>
       <li>HTML/CSS/PHP/JavaScript</li>
