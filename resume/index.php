@@ -22,7 +22,7 @@
       <ul>
         <li><a href="http://ndseg.asee.org/about_ndseg">National Defense Science and Engineering Graduate</a> (NDSEG) Fellow</li>
         <li>Emphasis in unmanned air vehicles, controls, robotics</li>
-        <li>Coursework: Deep Learning, Linear System Theory, Nonlinear System Theory, Robust Control, Robotic Vision, Dynamics of Mechanical Systems, Math of Signals and Systems, Stochastic Processes, Compliant Mechanisms</li>
+        <li>Coursework: Autonomous Systems, Deep Learning, Linear System Theory, Nonlinear System Theory, Robust Control, Robotic Vision, Dynamics of Mechanical Systems, Math of Signals and Systems, Stochastic Processes, Compliant Mechanisms</li>
       </ul>
     </div>
   </article>
@@ -64,6 +64,7 @@
     <div class="resume-position-points">
       <ul>
         <li>Research guidance and control of small UAVs in environments with degraded GPS</li>
+        <li>Develop estimation theory as well as implement algorithms for hardware flight tests</li>
         <li>Co-developed the <a href="http://rosflight.org/">ROSflight</a> autopilot firmware and ROS stack</li>
       </ul>
     </div>
@@ -136,7 +137,6 @@
     <div class="resume-position-points">
       <ul>
         <li>Researched continuum mechanical models of dislocation stress fields near a free surface</li>
-        <li>Coauthor on paper published in <cite>Journal of Microscopy</cite></li>
       </ul>
     </div>
   </article>
