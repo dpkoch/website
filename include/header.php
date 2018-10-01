@@ -5,6 +5,8 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="google" content="notranslate">
   <title><?php if (!empty($page_title)) {echo $page_title . ' | '; } ?>Daniel P Koch</title>
   <meta name="description" content="">
   <meta name="author" content="">
