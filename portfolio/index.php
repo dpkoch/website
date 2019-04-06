@@ -9,7 +9,7 @@
 <section>
   <h3>Projects</h3>
 
-  <article class="project">
+  <section class="project">
     <div class="project-header">
       <figure class="project-image"><a href="http://rosflight.org/"><img src="rosflight.svg" alt="ROSflight"></a></figure>
       <div class="project-header-details">
@@ -19,7 +19,7 @@
       </div>
     </div>
     <p>ROSflight is a lean, open-source flight controller geared toward research applications. The core flight stack is built as a standalone library, with support for a selection of flight controller hardware as well as software-in-the-loop simulation. The project also includes a ROS ecosystem for interfacing with research code. <a href="http://rosflight.org/">Learn more here.</a></p>
-  </article>
+  </section>
 </section>
 
 <section>

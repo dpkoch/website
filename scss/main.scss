@@ -251,12 +251,20 @@ nav a {
 
 main {
 	width: 100%;
-	padding: 24px;
+	padding: 72px 24px 48px 24px;
 
 	@include breakpoint(larger-than-tablet) {
 		width: $tablet;
 		margin-left: auto;
 		margin-right: auto;
+	}
+}
+
+section {
+	margin-top: 48px;
+
+	&:first-child {
+		margin-top: 0;
 	}
 }
 
