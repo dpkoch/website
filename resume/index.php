@@ -1,14 +1,14 @@
 <?php
   $page_title='Resume';
   $page_heading='Resume';
-  $header_css='/styles/resume.css';
+  $header_css=array('/styles/resume.css');
   include($_SERVER['DOCUMENT_ROOT'] . '/include/header.php');
 ?>
 
 <section>
   <h3>Education</h3>
 
-  <article class="resume-position">
+  <section class="resume-position">
     <div class="resume-position-header">
       <figure class="resume-logo"><a href="http://www.byu.edu/"><img src="byu_logo.svg" alt="Brigham Young University"></a></figure>
       <div class="resume-position-details">
@@ -25,9 +25,9 @@
         <li>Coursework: Autonomous Systems, Deep Learning, Linear System Theory, Nonlinear System Theory, Robust Control, Robotic Vision, Dynamics of Mechanical Systems, Math of Signals and Systems, Stochastic Processes, Compliant Mechanisms</li>
       </ul>
     </div>
-  </article>
+  </section>
 
-  <article class="resume-position">
+  <section class="resume-position">
     <div class="resume-position-header">
       <figure class="resume-logo"><a href="http://www.byu.edu/"><img src="byu_logo.svg" alt="Brigham Young University"></a></figure>
       <div class="resume-position-details">
@@ -44,14 +44,14 @@
         <li>Elective Courses: Flight Dynamics and Control, Mechatronics, Design of Control Systems, Optimization Techniques, Neuromechanics of Movement</li>
       </ul>
     </div>
-  </article>
+  </section>
 
 </section>
 
 <section>
   <h3>Work Experience</h3>
 
-  <article class="resume-position">
+  <section class="resume-position">
     <div class="resume-position-header">
       <figure class="resume-logo"><a href="http://magicc.byu.edu/"><img src="magicc_logo.svg" alt="BYU MAGICC Lab"></a></figure>
       <div class="resume-position-details">
@@ -68,9 +68,9 @@
         <li>Co-developed the <a href="http://rosflight.org/">ROSflight</a> autopilot firmware and ROS stack</li>
       </ul>
     </div>
-  </article>
+  </section>
 
-  <article class="resume-position">
+  <section class="resume-position">
     <div class="resume-position-header">
       <figure class="resume-logo"><a href="https://kittyhawk.aero/"><img src="kittyhawk_logo.svg" alt="Kitty Hawk"></a></figure>
       <div class="resume-position-details">
@@ -86,9 +86,9 @@
         <li>Contributed to system-level software design and integration decisions</li>
       </ul>
     </div>
-  </article>
+  </section>
 
-  <article class="resume-position">
+  <section class="resume-position">
     <div class="resume-position-header">
       <figure class="resume-logo"><a href="http://www.eglin.af.mil/Units/AFRL-Munitions-Directorate"><img src="afrl_logo.svg" alt="Air Force Research Laboratory"></a></figure>
       <div class="resume-position-details">
@@ -104,9 +104,9 @@
         <li>Developed hardware and software capabilities for collaborative multirotor research test platform</li>
       </ul>
     </div>
-  </article>
+  </section>
 
-  <article class="resume-position">
+  <section class="resume-position">
     <div class="resume-position-header">
       <figure class="resume-logo"><a href="http://www.daimler-trucksnorthamerica.com/"><img src="dtna_logo.svg" alt="Daimler Trucks North America"></a></figure>
       <div class="resume-position-details">
@@ -122,9 +122,9 @@
         <li>Helped integrate new software and establish expanded engineering analysis capabilities</li>
       </ul>
     </div>
-  </article>
+  </section>
 
-  <article class="resume-position">
+  <section class="resume-position">
     <div class="resume-position-header">
       <figure class="resume-logo"><a href="http://materials.byu.edu/"><img src="byu_logo.svg" alt="BYU Microstructure Research Lab"></a></figure>
       <div class="resume-position-details">
@@ -139,9 +139,9 @@
         <li>Researched continuum mechanical models of dislocation stress fields near a free surface</li>
       </ul>
     </div>
-  </article>
+  </section>
 
-  <article class="resume-position">
+  <section class="resume-position">
     <div class="resume-position-header">
       <figure class="resume-logo"><a href="http://www.lanl.gov/"><img src="lanl_logo.svg" alt="Los Alamos National Laboratory"></a></figure>
       <div class="resume-position-details">
@@ -156,7 +156,7 @@
         <li>Produced original work on mathematical models for effects of dislocations in solids</li>
       </ul>
     </div>
-  </article>
+  </section>
 
 </section>
 
