@@ -24,7 +24,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="/styles/normalize.css">
   <link rel="stylesheet" href="/styles/main.css">
-  <?php if (!empty($header_css)) { echo '<link rel="stylesheet" href="' . $header_css . '">'; } ?>
+  <?php if (!empty($header_css)) { foreach($header_css as $css) echo '  <link rel="stylesheet" href="' . $css . '">' . PHP_EOL; } ?>
 
   <!-- JavaScript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
