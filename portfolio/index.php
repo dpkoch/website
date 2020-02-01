@@ -38,6 +38,19 @@
           <li class="pub-author" data-ng-repeat="author in article.authors">{{ author | author }}</li>
         </ul>
         <span class="pub-source">{{ article | source }}</span>
+        <ul class="pub-websites">
+          <li class="pub-website" data-ng-repeat="website in article.websites">
+            <a href="{{ website }}">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" version="1.1">
+                <g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                  <path d="M 9 15L22 2"/>
+                  <path d="M 15 2L22 2L22 9"/>
+                  <path d="M 9 4L2 4L2 22L20 22L20 15"/>
+                </g>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </li>
     </ul>
   </div>
