@@ -54,14 +54,14 @@
     vertical-align: text-bottom;
 
     path {
-      stroke: $light-blue;
+      stroke: $link-color;
     }
   }
 
   &:hover {
     svg {
       path {
-        stroke: $red;
+        stroke: $link-hover-color;
       }
     }
   }

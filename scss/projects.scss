@@ -8,7 +8,7 @@
 	margin: 0;
 	padding: 48px 0;
 
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid $separator-color;
 	&:first-of-type {
 		padding-top: 24px;
 	}

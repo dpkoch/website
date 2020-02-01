@@ -1,9 +1,36 @@
-$text-color: #222;
-$nav-color: #fff;
-$title-color: #fff;
-$footer-color: #fff;
+$dark-gray: #222;
 $dark-blue: #001247;
 $light-blue: #0F3093;
 $dark-green: #4B7A0C;
 $light-green: #579307;
 $red: #541708;
+
+$site-title-color: $light-green;
+$site-logo-color: $light-blue;
+
+$text-color: $dark-gray;
+$text-accent-color-primary: $dark-green;
+$text-accent-color-secondary: $red;
+
+$link-color: $light-blue;
+$link-hover-color: $red;
+
+$nav-link-color: white;
+$nav-link-hover-color: $text-accent-color-primary;
+
+$footer-link-color: $nav-link-color;
+$footer-link-hover-color: $nav-link-hover-color;
+
+$page-title-color: white;
+
+$background-color: white;
+$background-accent-color-primary: $dark-blue;
+$background-accent-color-secondary: $light-blue;
+
+$nav-drawer-icon-color: white;
+$nav-drawer-background-color: #1D2E60;
+$nav-drawer-separator-color: #2C4693;
+$nav-drawer-link-color: $nav-link-color;
+$nav-drawer-link-hover-color: $nav-link-hover-color;
+
+$separator-color: #ddd;

@@ -5,7 +5,8 @@
 	font-size: 18px; /* currently ems cause chrome bug misinterpreting rems on body element */
 	line-height: 24px;
 	font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 300;
+    font-weight: 300;
+    color: $text-color;
 }
 
 @mixin font-structure() {
@@ -19,14 +20,14 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   @include font-structure;
-  color: $light-green;
+  color: $text-accent-color-primary;
   margin-top: 0;
   margin-bottom: 24px;
   text-transform: uppercase;
 }
 
 h4, h5, h6 {
-  color: $red;
+  color: $text-accent-color-secondary;
 }
 
 h5, h6 {
@@ -48,10 +49,10 @@ p {
 }
 
 a {
-  color: $light-blue;
+  color: $link-color;
   text-decoration: none;
   &:hover, &:focus {
-  	color: $red;
+  	color: $link-hover-color;
   }
 }
 
