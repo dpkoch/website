@@ -10,7 +10,7 @@
  *=======================================================*/
 
 body {
-	background: $dark-blue;
+	background: $structure-primary;
 }
 
 .band {
@@ -32,7 +32,7 @@ figure {
  *=======================================================*/
 
 .header {
-	background: $dark-blue;
+	background: $structure-primary;
 }
 
 header {
@@ -63,7 +63,7 @@ $title-height: 48px;
 	height: 36px;
 
 	path {
-		fill: $light-blue;
+		fill: $logo-color;
 	}
 }
 
@@ -71,7 +71,7 @@ $title-height: 48px;
 	display: inline-block;
 	height: $title-height;
 	vertical-align: middle;
-	color: $light-green;
+	color: $text-accent-primary;
 	font-size: 21px;
 	line-height: 21px;
 	margin: 0 0 0 8px;
@@ -160,7 +160,7 @@ nav a {
 	@include transition(color 0.1s ease);
 
 	&:hover, &:focus {
-		color: $light-green;
+		color: $nav-hover-color;
 	}
 }
 
@@ -212,7 +212,7 @@ nav a {
 		@include transition(color 0.1s ease, border-color 0.1s ease);
 
 		&:hover {
-			border-color: $light-green;
+			border-color: $nav-hover-color;
 		}
 	}
 }
@@ -246,7 +246,7 @@ nav a {
  *=======================================================*/
 
 .main {
-	background: white;
+	background: $background-color;
 }
 
 main {
@@ -287,7 +287,7 @@ footer {
  *-------------------------------------------------------*/
 
 .social {
-	background: $light-blue;
+	background: $structure-secondary;
 	padding-top: 24px;
 	padding-bottom: 24px;
 }
@@ -315,7 +315,7 @@ footer {
 	width: 48px;
 
 	path {
-		fill: $dark-blue;
+		fill: $structure-primary;
 	}
 }
 
@@ -333,7 +333,7 @@ footer {
  *-------------------------------------------------------*/
 
 .footer {
-	background: $dark-blue;
+	background: $structure-primary;
 }
 
 .footer footer {
@@ -357,7 +357,7 @@ footer {
 	text-transform: uppercase;
 
 	&:hover, &:focus {
-		color: $light-green;
+		color: $text-accent-primary;
 	}
 }
 
@@ -372,7 +372,7 @@ footer {
  *=======================================================*/
 
 .headshot {
-	@include background-image(linear-gradient(180deg, $dark-blue 50%, #fff 50%));
+	@include background-image(linear-gradient(180deg, $structure-primary 50%, $background-color 50%));
 	padding: 0 24px;
 }
 
