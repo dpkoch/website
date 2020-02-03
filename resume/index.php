@@ -15,7 +15,7 @@
         <h4>Ph.D. Mechanical Engineering</h4>
         <span class="resume-institution">Brigham Young University</span>
         <span class="resume-location">Provo, Utah</span>
-        <span class="resume-dates">August 2019</span>
+        <span class="resume-dates">April 2020</span>
       </div>
     </div>
     <div class="resume-position-points">
@@ -64,7 +64,9 @@
     <div class="resume-position-points">
       <ul>
         <li>Research guidance and control of small UAVs in environments with degraded GPS</li>
-        <li>Develop estimation theory as well as implement algorithms for hardware flight tests</li>
+        <!-- <li>Develop estimation theory as well as implement algorithms for hardware flight tests</li> -->
+        <li>Developed, implemented, and flight-tested several Kalman filter variants with estimates in the loop</li>
+        <li>Architected, implemented, and iterated complex, multi-component system used in several flight tests</li>
         <li>Co-developed the <a href="http://rosflight.org/">ROSflight</a> autopilot firmware and ROS stack</li>
       </ul>
     </div>
@@ -82,8 +84,10 @@
     </div>
     <div class="resume-position-points">
       <ul>
-        <li>Functioned as lead estimation engineer for a manned multirotor aircraft</li>
+        <li>Functioned as lead estimation engineer for early development of a manned multirotor aircraft</li>
+        <li>Developed and implemented full-state GPS/INS estimation software</li>
         <li>Contributed to system-level software design and integration decisions</li>
+        <li>Supported miniature and full-scale flight testing</li>
       </ul>
     </div>
   </section>
@@ -137,6 +141,7 @@
     <div class="resume-position-points">
       <ul>
         <li>Researched continuum mechanical models of dislocation stress fields near a free surface</li>
+        <li>Self-taught advanced tensor mathematics and made novel theoretical contributions as an undergraduate</li>
       </ul>
     </div>
   </section>
@@ -170,7 +175,8 @@
       <li>Linux</li>
       <li>Pixhawk/PX4</li>
       <li>OpenCV</li>
-      <li>PCB Design (CadSoft EAGLE)</li>
+      <li>Tensorflow</li>
+      <li>PCB Design (KiCad, CadSoft EAGLE)</li>
       <li>PIC microcontroller</li>
       <li>LMS Virtual.Lab Motion</li>
       <li>CATIA, SolidWorks, NX, Inventor</li>
