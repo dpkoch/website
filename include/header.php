@@ -58,9 +58,9 @@
       <nav class="">
         <ul>
           <li><a href="/">Home</a></li>
-          <!--<li><a href="/about/">About</a></li>-->
           <li><a href="/resume/">Resume</a></li>
           <li><a href="/portfolio/">Portfolio</a></li>
+          <li><a href="/personal/">Personal</a></li>
           <!-- <li><a href="/blog/" class="nav-external">Blog</a></li> -->
         </ul>
       </nav>

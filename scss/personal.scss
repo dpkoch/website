@@ -1,0 +1,23 @@
+@import "_colors";
+
+.intro {
+    border-bottom: 1px solid $separator_color;
+    padding-bottom: 48px;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+li {
+    margin-bottom: 2ex;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+figure {
+    margin-top: 48px;
+    // border: 2px solid $separator_color;
+}
