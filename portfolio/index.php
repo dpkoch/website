@@ -20,6 +20,10 @@
     </div>
     <p>ROSflight is a lean, open-source flight controller geared toward research applications. The core flight stack is built as a standalone library, with support for a selection of flight controller hardware as well as software-in-the-loop simulation. The project also includes a ROS ecosystem for interfacing with research code. <a href="http://rosflight.org/">Learn more here.</a></p>
   </section>
+
+  <section class="project">
+      <p>Visit my <a href="https://github.com/dpkoch">GitHub page</a> to see some of the other stuff I've been working on!
+  </section>
 </section>
 
 <section>
