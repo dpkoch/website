@@ -1,4 +1,5 @@
 @import 'compass/css3/animation';
+@import '_colors';
 
 .pub-year h4 {
   margin: 12px 0;
@@ -15,6 +16,7 @@
 
 .pub-title {
   font-weight: bold;
+  color: $text-accent-color-tertiary;
 }
 
 .pub-authors {
@@ -36,6 +38,34 @@
 
 .pub-source {
   font-style: italic;
+}
+
+.pub-websites {
+  display: inline;
+  padding: 0;
+}
+
+.pub-website {
+  list-style-type: none;
+  display: inline;
+  margin-left: 0.5em;
+
+  svg {
+    max-height: 18px;
+    vertical-align: text-bottom;
+
+    path {
+      stroke: $link-color;
+    }
+  }
+
+  &:hover {
+    svg {
+      path {
+        stroke: $link-hover-color;
+      }
+    }
+  }
 }
 
 @include keyframes(loading) {

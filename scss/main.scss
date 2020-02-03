@@ -10,7 +10,7 @@
  *=======================================================*/
 
 body {
-	background: $dark-blue;
+	background: $background-accent-color-primary;
 }
 
 .band {
@@ -32,7 +32,7 @@ figure {
  *=======================================================*/
 
 .header {
-	background: $dark-blue;
+	background: $background-accent-color-primary;
 }
 
 header {
@@ -63,7 +63,7 @@ $title-height: 48px;
 	height: 36px;
 
 	path {
-		fill: $light-blue;
+		fill: $site-logo-color;
 	}
 }
 
@@ -71,7 +71,7 @@ $title-height: 48px;
 	display: inline-block;
 	height: $title-height;
 	vertical-align: middle;
-	color: $light-green;
+	color: $site-title-color;
 	font-size: 21px;
 	line-height: 21px;
 	margin: 0 0 0 8px;
@@ -97,7 +97,7 @@ $title-height: 48px;
 	padding: 0;
 
 	path {
-		fill: $nav-color;
+		fill: $nav-drawer-icon-color;
 	}
 
 	&:focus {
@@ -124,8 +124,7 @@ nav {
 	z-index: 1;
 	overflow-y: auto;
 
-	background: #1D2E60;
-	color: $nav-color;
+	background: $nav-drawer-background-color;
 	padding: 24px;
 }
 
@@ -142,7 +141,7 @@ nav ul {
 nav li {
 	list-style-type: none;
 
-	border-bottom: solid 1px #2C4693;
+	border-bottom: solid 1px $nav-drawer-separator-color;
 	&:last-child {
 		border-bottom: none;
 	}
@@ -150,7 +149,7 @@ nav li {
 
 nav a {
 	@include font-structure;
-	color: $nav-color;
+	color: $nav-drawer-link-color;
 	text-decoration: none;
 	text-transform: uppercase;
 	display: block;
@@ -160,7 +159,7 @@ nav a {
 	@include transition(color 0.1s ease);
 
 	&:hover, &:focus {
-		color: $light-green;
+		color: $nav-drawer-link-hover-color;
 	}
 }
 
@@ -207,12 +206,12 @@ nav a {
 
 	.nav-external {
 		padding: 6px 18px;
-		border: 2px solid $nav-color;
+		border: 2px solid $nav-link-color;
 		@include border-radius(24px + 2*6px);
 		@include transition(color 0.1s ease, border-color 0.1s ease);
 
 		&:hover {
-			border-color: $light-green;
+			border-color: $nav-link-hover-color;
 		}
 	}
 }
@@ -229,7 +228,7 @@ nav a {
 }
 
 .page-title h2 {
-	color: $title-color;
+	color: $page-title-color;
 	font-size: 48px;
 	font-weight: bold;
 	line-height: 48px;
@@ -246,7 +245,7 @@ nav a {
  *=======================================================*/
 
 .main {
-	background: white;
+	background: $background-color;
 }
 
 main {
@@ -287,7 +286,7 @@ footer {
  *-------------------------------------------------------*/
 
 .social {
-	background: $light-blue;
+	background: $background-accent-color-secondary;
 	padding-top: 24px;
 	padding-bottom: 24px;
 }
@@ -315,7 +314,7 @@ footer {
 	width: 48px;
 
 	path {
-		fill: $dark-blue;
+		fill: $background-accent-color-primary
 	}
 }
 
@@ -333,7 +332,7 @@ footer {
  *-------------------------------------------------------*/
 
 .footer {
-	background: $dark-blue;
+	background: $background-accent-color-primary;
 }
 
 .footer footer {
@@ -352,12 +351,12 @@ footer {
 	display: block;
 	font-size: 18px;
 	line-height: 48px;
-	color: $footer-color;
+	color: $footer-link-color;
 	text-decoration: none;
 	text-transform: uppercase;
 
 	&:hover, &:focus {
-		color: $light-green;
+		color: $footer-link-hover-color;
 	}
 }
 
@@ -372,7 +371,7 @@ footer {
  *=======================================================*/
 
 .headshot {
-	@include background-image(linear-gradient(180deg, $dark-blue 50%, #fff 50%));
+	@include background-image(linear-gradient(180deg, $background-accent-color-primary 50%, $background-color 50%));
 	padding: 0 24px;
 }
 

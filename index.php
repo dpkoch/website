@@ -7,12 +7,10 @@
   include($_SERVER['DOCUMENT_ROOT'] . '/include/header.php');
 ?>
 
-
 <h3>Welcome!</h3>
-<p>I'm an engineering PhD student working in the field of guidance, navigation, and control for unamnned air vehicles (UAVs). My background is in mechanical engineering with a decent helping of controls engineering and computer science. Aside from robotics I'm involved in a number of diverse hobbies and interests.</p>
 
-<p>I hope this website will help you get to know a little bit about me and my work. Visit my <a href="/about/">about me</a> page to learn about my background and personal interests. If you're interested in my academic endeavors, take a look at my <a href="/resume/">resume</a> or some of my <a href="/portfolio/">projects and publications</a>. Or, head on over to my <a href="https://github.com/dpkoch">GitHub page</a> or <a href="/blog/">blog</a> to see what I've been up to recently.</p>
+<p>I'm an engineering PhD working on autonomous systems. I am thrilled to be getting involved in what is potentially the most transformative technology that will emerge during my lifetime. I've been lucky to have had opportunities to be involved with a number of projects in both academia and industry, and I look forward to continuing to engage with the challenges that will make autonomous technologies a reality in a safe and responsible manner. I love what I do, and I'm excited to keep doing it!</p>
 
-<p>Thanks for visiting!</p>
+<p>I hope that this website will help you get to know a little bit about me, both profesionally and personally. Thanks for visiting!</p>
 
 <?php include ($_SERVER['DOCUMENT_ROOT'] . '/include/footer.php'); ?>
