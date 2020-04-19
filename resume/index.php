@@ -15,7 +15,7 @@
         <h4>Ph.D. Mechanical Engineering</h4>
         <span class="resume-institution">Brigham Young University</span>
         <span class="resume-location">Provo, Utah</span>
-        <span class="resume-dates">April 2020</span>
+        <span class="resume-dates">June 2020</span>
       </div>
     </div>
     <div class="resume-position-points">
