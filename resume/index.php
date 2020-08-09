@@ -15,7 +15,7 @@
         <h4>Ph.D. Mechanical Engineering</h4>
         <span class="resume-institution">Brigham Young University</span>
         <span class="resume-location">Provo, Utah</span>
-        <span class="resume-dates">June 2020</span>
+        <span class="resume-dates">December 2020</span>
       </div>
     </div>
     <div class="resume-position-points">
@@ -53,12 +53,29 @@
 
   <section class="resume-position">
     <div class="resume-position-header">
+      <figure class="resume-logo"><a href="https://aurora.tech/"><img src="aurora_logo.svg" alt="Aurora Innovation, Inc."></a></figure>
+      <div class="resume-position-details">
+        <h4>Software Engineer</h4>
+        <span class="resume-institution">Aurora Innovation, Inc.</span>
+        <span class="resume-location">Pittsburgh, Pennsylvania</span>
+        <span class="resume-dates">July 2020 &ndash; Present</span>
+      </div>
+    </div>
+    <div class="resume-position-points">
+      <ul>
+        <li>Developing localization systems for autonomous vehicles</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="resume-position">
+    <div class="resume-position-header">
       <figure class="resume-logo"><a href="http://magicc.byu.edu/"><img src="magicc_logo.svg" alt="BYU MAGICC Lab"></a></figure>
       <div class="resume-position-details">
         <h4>Research Assistant</h4>
         <span class="resume-institution">BYU MAGICC Lab</span>
         <span class="resume-location">Provo, Utah</span>
-        <span class="resume-dates">November 2012 &ndash; Present</span>
+        <span class="resume-dates">November 2012 &ndash; June 2020</span>
       </div>
     </div>
     <div class="resume-position-points">
@@ -194,6 +211,7 @@
       <li>National Defense Engineering and Science Graduate Fellowship</li>
       <li>Ira A. Fulton College PhD Fellowship</li>
       <li>Department of Mechanical Engineering Research Fellowship</li>
+      <li>Graduate Student Technical Excellence Award</li>
       <li>Tau Beta Pi Stabile Scholarship</li>
       <li>Heritage Academic Scholarship</li>
       <li>National Merit Scholarship</li>
