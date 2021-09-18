@@ -15,7 +15,7 @@
         <h4>Ph.D. Mechanical Engineering</h4>
         <span class="resume-institution">Brigham Young University</span>
         <span class="resume-location">Provo, Utah</span>
-        <span class="resume-dates">December 2020</span>
+        <span class="resume-dates">All but dissertation</span>
       </div>
     </div>
     <div class="resume-position-points">
@@ -55,7 +55,7 @@
     <div class="resume-position-header">
       <figure class="resume-logo"><a href="https://aurora.tech/"><img src="aurora_logo.svg" alt="Aurora Innovation, Inc."></a></figure>
       <div class="resume-position-details">
-        <h4>Software Engineer</h4>
+        <h4>Senior Software Engineer</h4>
         <span class="resume-institution">Aurora Innovation, Inc.</span>
         <span class="resume-location">Pittsburgh, Pennsylvania</span>
         <span class="resume-dates">July 2020 &ndash; Present</span>
