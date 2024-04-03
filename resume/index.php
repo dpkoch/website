@@ -55,6 +55,7 @@
     <div class="resume-position-header">
       <figure class="resume-logo"><a href="https://aurora.tech/"><img src="aurora_logo.svg" alt="Aurora Innovation, Inc."></a></figure>
       <div class="resume-position-details">
+        <h4>Staff Software Engineer</h4>
         <h4>Senior Software Engineer</h4>
         <span class="resume-institution">Aurora Innovation, Inc.</span>
         <span class="resume-location">Pittsburgh, Pennsylvania</span>
@@ -93,7 +94,7 @@
     <div class="resume-position-header">
       <figure class="resume-logo"><a href="https://kittyhawk.aero/"><img src="kittyhawk_logo.svg" alt="Kitty Hawk"></a></figure>
       <div class="resume-position-details">
-        <h4>GNC Engineer</h4>
+        <h4>GNC Engineer (Intern)</h4>
         <span class="resume-institution">Kitty Hawk Corporation</span>
         <span class="resume-location">Mountain View, California</span>
         <span class="resume-dates">January 2017 &ndash; April 2017</span>
