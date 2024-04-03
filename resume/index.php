@@ -56,10 +56,15 @@
       <figure class="resume-logo"><a href="https://aurora.tech/"><img src="aurora_logo.svg" alt="Aurora Innovation, Inc."></a></figure>
       <div class="resume-position-details">
         <h4>Staff Software Engineer</h4>
+        <span class="resume-institution">Aurora Innovation, Inc.</span>
+        <span class="resume-location">Pittsburgh, Pennsylvania</span>
+        <span class="resume-dates">April 2024 &ndash; Present</span>
+      </div>
+      <div class="resume-position-details">
         <h4>Senior Software Engineer</h4>
         <span class="resume-institution">Aurora Innovation, Inc.</span>
         <span class="resume-location">Pittsburgh, Pennsylvania</span>
-        <span class="resume-dates">July 2020 &ndash; Present</span>
+        <span class="resume-dates">July 2020 &ndash; April 2024</span>
       </div>
     </div>
     <div class="resume-position-points">
