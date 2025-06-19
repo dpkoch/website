@@ -15,11 +15,12 @@
         <h4>Ph.D. Mechanical Engineering</h4>
         <span class="resume-institution">Brigham Young University</span>
         <span class="resume-location">Provo, Utah</span>
-        <span class="resume-dates">All but dissertation</span>
+        <span class="resume-dates">2025</span>
       </div>
     </div>
     <div class="resume-position-points">
       <ul>
+        <li>Dissertation: <a href="https://scholarsarchive.byu.edu/etd/10699/">IMU-Mechanized Discrete Error-State Kalman Filtering with Lie-Group Pose Representations</a></li>
         <li><a href="https://ndseg.org/about">National Defense Science and Engineering Graduate</a> (NDSEG) Fellow</li>
         <li>Emphasis in unmanned air vehicles, controls, robotics</li>
         <li>Coursework: Autonomous Systems, Deep Learning, Linear System Theory, Nonlinear System Theory, Robust Control, Robotic Vision, Dynamics of Mechanical Systems, Math of Signals and Systems, Stochastic Processes, Compliant Mechanisms</li>
@@ -34,7 +35,7 @@
         <h4>B.S. Mechanical Engineering</h4>
         <span class="resume-institution">Brigham Young University</span>
         <span class="resume-location">Provo, Utah</span>
-        <span class="resume-dates">April 2014</span>
+        <span class="resume-dates">2014</span>
       </div>
     </div>
     <div class="resume-position-points">
