@@ -10,17 +10,18 @@
 
   <section class="resume-position">
     <div class="resume-position-header">
-      <figure class="resume-logo"><a href="http://www.byu.edu/"><img src="byu_logo.svg" alt="Brigham Young University"></a></figure>
+      <figure class="resume-logo"><a href="https://www.byu.edu/"><img src="byu_logo.svg" alt="Brigham Young University"></a></figure>
       <div class="resume-position-details">
         <h4>Ph.D. Mechanical Engineering</h4>
         <span class="resume-institution">Brigham Young University</span>
         <span class="resume-location">Provo, Utah</span>
-        <span class="resume-dates">All but dissertation</span>
+        <span class="resume-dates">2025</span>
       </div>
     </div>
     <div class="resume-position-points">
       <ul>
-        <li><a href="http://ndseg.asee.org/about_ndseg">National Defense Science and Engineering Graduate</a> (NDSEG) Fellow</li>
+        <li>Dissertation: <a href="https://scholarsarchive.byu.edu/etd/10699/">IMU-Mechanized Discrete Error-State Kalman Filtering with Lie-Group Pose Representations</a></li>
+        <li><a href="https://ndseg.org/about">National Defense Science and Engineering Graduate</a> (NDSEG) Fellow</li>
         <li>Emphasis in unmanned air vehicles, controls, robotics</li>
         <li>Coursework: Autonomous Systems, Deep Learning, Linear System Theory, Nonlinear System Theory, Robust Control, Robotic Vision, Dynamics of Mechanical Systems, Math of Signals and Systems, Stochastic Processes, Compliant Mechanisms</li>
       </ul>
@@ -29,12 +30,12 @@
 
   <section class="resume-position">
     <div class="resume-position-header">
-      <figure class="resume-logo"><a href="http://www.byu.edu/"><img src="byu_logo.svg" alt="Brigham Young University"></a></figure>
+      <figure class="resume-logo"><a href="https://www.byu.edu/"><img src="byu_logo.svg" alt="Brigham Young University"></a></figure>
       <div class="resume-position-details">
         <h4>B.S. Mechanical Engineering</h4>
         <span class="resume-institution">Brigham Young University</span>
         <span class="resume-location">Provo, Utah</span>
-        <span class="resume-dates">April 2014</span>
+        <span class="resume-dates">2014</span>
       </div>
     </div>
     <div class="resume-position-points">
@@ -55,10 +56,16 @@
     <div class="resume-position-header">
       <figure class="resume-logo"><a href="https://aurora.tech/"><img src="aurora_logo.svg" alt="Aurora Innovation, Inc."></a></figure>
       <div class="resume-position-details">
+        <h4>Staff Software Engineer</h4>
+        <span class="resume-institution">Aurora Innovation, Inc.</span>
+        <span class="resume-location">Pittsburgh, Pennsylvania</span>
+        <span class="resume-dates">April 2024 &ndash; Present</span>
+      </div>
+      <div class="resume-position-details">
         <h4>Senior Software Engineer</h4>
         <span class="resume-institution">Aurora Innovation, Inc.</span>
         <span class="resume-location">Pittsburgh, Pennsylvania</span>
-        <span class="resume-dates">July 2020 &ndash; Present</span>
+        <span class="resume-dates">July 2020 &ndash; April 2024</span>
       </div>
     </div>
     <div class="resume-position-points">
@@ -70,7 +77,7 @@
 
   <section class="resume-position">
     <div class="resume-position-header">
-      <figure class="resume-logo"><a href="http://magicc.byu.edu/"><img src="magicc_logo.svg" alt="BYU MAGICC Lab"></a></figure>
+      <figure class="resume-logo"><a href="https://magicc.byu.edu/content/general-information"><img src="magicc_logo.svg" alt="BYU MAGICC Lab"></a></figure>
       <div class="resume-position-details">
         <h4>Research Assistant</h4>
         <span class="resume-institution">BYU MAGICC Lab</span>
@@ -84,7 +91,7 @@
         <!-- <li>Develop estimation theory as well as implement algorithms for hardware flight tests</li> -->
         <li>Developed, implemented, and flight-tested several Kalman filter variants with estimates in the loop</li>
         <li>Architected, implemented, and iterated complex, multi-component system used in several flight tests</li>
-        <li>Co-developed the <a href="http://rosflight.org/">ROSflight</a> autopilot firmware and ROS stack</li>
+        <li>Co-developed the <a href="https://rosflight.org/">ROSflight</a> autopilot firmware and ROS stack</li>
       </ul>
     </div>
   </section>
@@ -93,7 +100,7 @@
     <div class="resume-position-header">
       <figure class="resume-logo"><a href="https://kittyhawk.aero/"><img src="kittyhawk_logo.svg" alt="Kitty Hawk"></a></figure>
       <div class="resume-position-details">
-        <h4>GNC Engineer</h4>
+        <h4>GNC Engineer (Intern)</h4>
         <span class="resume-institution">Kitty Hawk Corporation</span>
         <span class="resume-location">Mountain View, California</span>
         <span class="resume-dates">January 2017 &ndash; April 2017</span>
@@ -111,7 +118,7 @@
 
   <section class="resume-position">
     <div class="resume-position-header">
-      <figure class="resume-logo"><a href="http://www.eglin.af.mil/Units/AFRL-Munitions-Directorate"><img src="afrl_logo.svg" alt="Air Force Research Laboratory"></a></figure>
+      <figure class="resume-logo"><a href="https://www.afrl.af.mil/RW/"><img src="afrl_logo.svg" alt="Air Force Research Laboratory"></a></figure>
       <div class="resume-position-details">
         <h4>Summer Researcher</h4>
         <span class="resume-institution">Air Force Research Laboratory</span>
@@ -129,7 +136,7 @@
 
   <section class="resume-position">
     <div class="resume-position-header">
-      <figure class="resume-logo"><a href="http://www.daimler-trucksnorthamerica.com/"><img src="dtna_logo.svg" alt="Daimler Trucks North America"></a></figure>
+      <figure class="resume-logo"><a href="https://northamerica.daimlertruck.com/"><img src="dtna_logo.svg" alt="Daimler Trucks North America"></a></figure>
       <div class="resume-position-details">
         <h4>Intern</h4>
         <span class="resume-institution">Daimler Trucks North America</span>
@@ -147,7 +154,7 @@
 
   <section class="resume-position">
     <div class="resume-position-header">
-      <figure class="resume-logo"><a href="http://materials.byu.edu/"><img src="byu_logo.svg" alt="BYU Microstructure Research Lab"></a></figure>
+      <figure class="resume-logo"><a href="https://materials.byu.edu/"><img src="byu_logo.svg" alt="BYU Microstructure Research Lab"></a></figure>
       <div class="resume-position-details">
         <h4>Research Assistant</h4>
         <span class="resume-institution">BYU Microstructure Research Lab</span>
@@ -165,7 +172,7 @@
 
   <section class="resume-position">
     <div class="resume-position-header">
-      <figure class="resume-logo"><a href="http://www.lanl.gov/"><img src="lanl_logo.svg" alt="Los Alamos National Laboratory"></a></figure>
+      <figure class="resume-logo"><a href="https://lanl.gov/"><img src="lanl_logo.svg" alt="Los Alamos National Laboratory"></a></figure>
       <div class="resume-position-details">
         <h4>Undergraduate Intern</h4>
         <span class="resume-institution">Los Alamos National Laboratory</span>
